@@ -37,4 +37,10 @@ document.getElementById('password').innerHTML = `
   <p>${generatePassword}</p>
 `;
 
+document.getElementById('passwordlenght').innerHTML = `
+  <p>La tua password è lunga:</p>
+
+  <p>${generatePassword.length} caratteri</p>
+`;
+
 

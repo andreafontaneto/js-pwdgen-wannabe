@@ -28,4 +28,13 @@ const generatePassword = firstname + lastname + favcolour + 21
 
 console.log(generatePassword);
 
+document.getElementById('password').innerHTML = `
+  <h1>Password Generator 2021</h1>
+  <h4>made by Andrea Fontaneto</h4>
+
+  <p>La tua password generata è:</p>
+
+  <p>${generatePassword}</p>
+`;
+
 

@@ -15,3 +15,17 @@ es. nomecognomecolorepreferito21
 5- stampare la lunghezza della password 
 
 */
+
+const firstname = prompt('il tuo nome?');
+const lastname = prompt('il tuo cognome?');
+const favcolour = prompt('colore preferito?');
+
+console.log(firstname);
+console.log(lastname);
+console.log(favcolour);
+
+const generatePassword = firstname + lastname + favcolour + 21
+
+console.log(generatePassword);
+
+

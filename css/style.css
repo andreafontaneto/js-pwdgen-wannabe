@@ -1,0 +1,41 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#password, #passwordlenght{
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#password{
+  width: 800px;
+  height: 400px;
+  background-color: grey;
+  color: white;
+}
+
+#password h1{
+  font-size: 50px;
+  padding: 30px 0 10px 0;
+}
+
+#password h4{
+  font-size: 14px;
+  color: black;
+}
+
+#password p{
+  padding: 20px 0;
+}
+
+#passwordlenght{
+  width: 800px;
+  height: 100px;
+  background-color: darkslategray;
+  color: goldenrod;
+}
